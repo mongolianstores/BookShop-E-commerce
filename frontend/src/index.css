@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* Header */
+@import url('./components/header/header.css');
+
+/* Bottom */
+@import url('./components/bottom/bottom.css');
+
+/* Books */
+@import url('./components/pages/books/books.css');
+
+/* Book details */
+@import url('./components/pages/book-details/book-details.css');
+
+/* Login and Register */
+@import url('./components/pages/login-register/login.css');
+
+/* Cart */
+@import url('./components/pages/cart/cart.css');
+
+/* Orders */
+@import url('./components/pages/history/history.css');
+
+/* Categories */
+@import url('./components/pages/categories/categories.css');
+
+/* Create Book */
+@import url('./components/pages/create-book/create-book.css');
+
+/* 404 Page */
+@import url('./components/pages/not-found/not-found.css');
+
+/* About Page */
+@import url('./components/pages/about/about.css');
+
+/* Contact Page */
+@import url('./components/pages/contact/contact.css');
+
+/* FAQ Page */
+@import url('./components/pages/faq/faq.css');
+
+/* Delivery Page */
+@import url('./components/pages/delivery/delivery.css');
+
+/* Responsive UI */
+@media (max-width: 820px){
+
+  header .logo{
+    margin-top: 15px;
+    min-width: 115px;
+    flex: none;
+  }
+
+  header ul{
+   padding: 10px 0;
+  }
+}
+
+@media (max-width: 720px){
+
+  header ul{
+   position: fixed;
+   top:0;
+   left: -100%;
+   width: 100%;
+   height: 100vh;
+   background: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   opacity: 0.98;
+   z-index: 99;
+   transition: 0.5s ease-in;
+  }
+
+  header .menu{
+    display: block;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  header ul li .menu{
+    position: absolute;
+    top:20px;
+    right: 20px;
+  }
+
+  header{
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 570px){
+
+  .filter-menu .row span{
+    display: none;
+  }
+}
+
+@media (max-width: 500px){
+
+  .detail{
+    font-size: 100%;
+    padding: 0;
+  }
+
+  .filter-menu input{
+    margin: 0;
+  }
+
+  .filter-menu .sort{
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .filter-menu .sort select{
+    width: 100%;
+    min-width: 290px;
+    margin: 5px 0;
+  }
+
+  .login-page{
+    padding: 30px 15px;
+    margin: 5px 5px 200px 5px;
+    border: 0px;
+  }
+
+  .login-page form button{
+    margin-right: 10px;
+  }
+
+  .delete-all{
+    margin: 20px 0 20px 10px;
+  }
+
+  .create-product .upload{
+    margin: 20px 0;
+  }
+
+  #user-icon{
+    display: none;
+  }
+}

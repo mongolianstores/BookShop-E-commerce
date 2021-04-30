@@ -1,0 +1,28 @@
+.delivery {
+    width: 100%;
+    min-height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.delivery p {
+    margin: 20px 0;
+    color: gray;
+}
+
+.delivery table {
+    margin-top: 20px;
+}
+
+.delivery table,th,tr,td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    color: gray;
+}
+
+#thead {
+    color: black;
+}

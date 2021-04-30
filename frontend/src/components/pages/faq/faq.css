@@ -1,0 +1,21 @@
+.faq {
+    width: 100%;
+    min-height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+
+.faq h3 {
+    color: gray;
+}
+
+#q {
+    color: black;
+}
+
+.faq li{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,60 @@
+.detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    font-size: 150%;
+}
+
+.cart-button {
+    background: #555;
+    padding: 10px;
+    color: white;
+    border-radius: 3px;
+}
+
+.detail img {
+    max-width: 350px;
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.detail-box {
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+}
+
+.detail-box h2 {
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+    margin-top: 20px;
+}
+
+.detail-box h4 {
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+
+#au {
+    text-transform: capitalize;
+}
+
+#ca {
+    font-style: italic;
+}
+
+.detail-box p {
+    line-height: 1.5;
+    margin: 10px 0;
+    opacity: 0.8;
+    font-size: 17px;
+    margin-bottom: 30px;
+}

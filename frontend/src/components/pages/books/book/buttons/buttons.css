@@ -1,0 +1,27 @@
+.buttons {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons a {
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 6px;
+}
+
+#button-buy {
+    background: #555;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+#button-view {
+    background: #555;
+    margin-left: 5px;
+    border-radius: 3px;
+}

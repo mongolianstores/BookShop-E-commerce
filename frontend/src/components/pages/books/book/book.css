@@ -1,0 +1,63 @@
+.book {
+    max-width: 160px;
+    overflow: hidden;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 10px;
+    position: relative;
+}
+
+.book span {
+    color: #800000;
+}
+
+.book img {
+    width: 100%;
+    height: 190px;
+    display: block;
+    object-fit: cover;
+}
+
+.book-box h3 {
+    text-align: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #323232;
+}
+
+.book-box h4 {
+    text-align: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: gray;
+}
+
+.book-box h5 {
+    text-align: center;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #323232;
+    font-style: italic;
+}
+
+/* Button */
+@import url("../book/buttons/buttons.css");
+
+.book input {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}

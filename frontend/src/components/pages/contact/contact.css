@@ -1,0 +1,17 @@
+.contact {
+    width: 100%;
+    min-height: 445px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact p {
+    color: gray;
+    font-size: large;
+}
+
+.contact h4 {
+    color: gray;
+}

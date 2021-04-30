@@ -1,0 +1,49 @@
+.orders-page {
+    overflow-x: auto;
+    min-height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.orders-page h2 {
+    margin: 20px 0;
+}
+
+.orders-page h3 {
+    color: gray;
+}
+
+.orders-page table {
+    margin: 30px 0px;
+    width: 80%;
+}
+
+.orders-page table,th,tr,td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.orders-page table a {
+    color: gray;
+}
+
+.orders-page img {
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
+
+#hh {
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
